@@ -6,3 +6,5 @@ let bookSchema = new Schema({
   genre: String,
   authorId:   String,
 });
+
+module.exports = mongoose.model('Book',bookSchema);
